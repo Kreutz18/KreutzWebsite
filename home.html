@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MyWebsite</title>
+        <link rel = "stylesheet" href = "website.css"/>
+        <script type = "text/javascript" src = "website.js"></script>
+    </head>
+    <body id = "home">
+        <div id = "header">
+            <h1 id = "nameTitle">Jesse Kreutzberger</h1>
+            <h2 id = "proTitle">Software Engineer</h2>
+            <a href = "home.html">Home</a>
+            <a href = "#" onclick = "myFunction('1')">Contact</a>
+            <a href = "https://github.com/Kreutz18" target = "_blank">GitHub</a>
+            <a href = "#" onclick = "myFunction('2')">Admin</a>
+            <hr />
+        </div>
+            <div id = "adminLoginDiv" style = "display: none;">
+                <fieldset id = "adminField">
+                    <legend>Sign-In</legend>
+                    <form method =  "POST" action = "login.php" id = "adminForm">
+                        <label>Username:</label>
+                        <input type = "text" name = "username"/>
+                        <br/>
+                        <label>Password:</label>
+                        <input type = "password" name = "password" />
+                        <input type = "submit" name = "submit" value = "Submit"/>
+                    </form>
+                </fieldset>
+            </div>
+            <div id = "contactFormDiv" style = "display: none;">
+                <div class = "pExplanation">
+                    <p><b>If you wish to contact me please provide the following information and a message describing your reason for contact.</b></p>
+                </div>
+                <form action = "contactPage.php" id = "contactForm" method = "post">
+                    <div id = "formDiv">
+                        <input class = "contactBox" name = "fName" type = "text" placeholder = "First Name"/></br>
+                        <input class = "contactBox" name = "lName" type = "text" placeholder = "Last Name"/>
+                        <br/>
+                        <input class = "contactBox" name = "email" type = "text" placeholder = "E-mail"/>
+                        <br/>
+                        <textarea  rows = "4" cols = "35" class = "messageBox" name = "message" form = "contactForm" placeholder = "Leave a Message"></textarea>
+                        <input id = "submitButton" type = "submit" />
+                    </div>
+                </form>
+            </div>
+    </body>
+</html>

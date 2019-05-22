@@ -1,0 +1,111 @@
+#user {
+    font-family: Georgia;
+    margin: 0px auto 0px auto;
+    font-size: 110%;    
+}
+
+#adminLogin {
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+#adminLogin input {
+    margin: 0px auto 10px 90px;
+}
+
+#adminLogin label {
+    position: absolute;
+    margin-left: 5px;
+   
+    
+}
+#adminField {
+    margin: 0px auto 0px auto;
+    max-width: 300px;
+    font-family: georgia;
+    text-align: center;
+}
+#nameTitle {
+    text-align: center;
+    font-family: Georgia;
+    margin: 0px auto 0px auto;
+    color: #03396C;
+    
+}
+
+#proTitle  {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0px auto 15px auto;
+    color: #03396C;
+}
+
+#header {
+    margin: 0px auto 20px auto;
+    text-align: center;
+    position: static;
+    
+}
+
+.pExplanation {
+    width: 280px;
+    text-align: center;
+    /* border: 1px solid; */
+    margin: 10px auto 10px auto;
+    font-family: Georgia;
+}
+
+#header a {
+    margin-right: 10px;
+    font-family: Impact;
+    color: #03396C;
+}
+
+a : visited {
+    color: blue;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+}
+
+.contactBox {
+    font-size: 120%;
+    color: #5a5854;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 5px 5px 10px 5px;
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+    display: block;
+    margin: 0px auto 0px auto;
+    
+}
+
+input:focus, input:hover {
+    background-color: #ffffff;
+    border: 1px solid #blele4;
+}
+
+#formDiv{
+    text-align: center;
+}
+
+#submitButton {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    font-size: 125%;
+    font-family: Impact;
+}
+
+
+
